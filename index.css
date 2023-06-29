@@ -1,0 +1,401 @@
+body{
+    background-image: linear-gradient(to right,#4700fb, #8400fb, #c801fc);
+    /*background-repeat: no-repeat;*/
+    margin:auto;
+    width: 1200px;
+
+}
+#mainn{
+    width: 1200px;
+    margin: 30px 0px 30px 0px;
+    background-image: linear-gradient(to right,#0f041f, #3f085e);
+    height: 700px;
+    border-radius: 20px;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 60px;
+    border-bottom: 1px solid rgba(167, 95, 238, 0.35);
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav li{
+    list-style-type: none;
+    margin-left: 40px;
+    padding: 10px;
+
+}
+nav li a{
+    text-decoration: none;
+    color:white;
+    font-size: 16px;
+    font-family: Constantia;
+}
+
+nav li:hover{
+    background-color: #8400fb;
+    border-radius: 300px;
+    padding: 10px;
+}
+nav li a:hover{
+    color: #0f041f;
+}
+#logo{
+    font-family: "Fira Code Retina";
+    font-size: 26px;
+    color: #2c022c;
+    background:-webkit-repeating-radial-gradient( #c801fc,#8400fb,#4700fb);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-left: 40px;
+}
+#di{
+    color: purple;
+}
+#main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+#left{
+    flex: 2;
+    width: 60%;
+    margin-top: 70px;
+}
+#right{
+    flex:1;
+    width: 40%;
+    margin-top: 70px;
+}
+#h1index{
+    font-size: 75px;
+    font-family: PMingLiU-ExtB ;
+    color: #8400fb;
+}
+#main #left p{
+    font-family: PMingLiU-ExtB ;
+    color: rgba(255, 255, 255, 0.71);
+}
+#main #left h2{
+    margin-top: -30px;
+    font-family: PMingLiU-ExtB ;
+    color: #3a073a;
+    background:-webkit-repeating-radial-gradient( #c801fc,#8400fb,#4700fb);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+#main #left h1,#main #left h2,#main #left p,
+#main #left button,#main #left h3{
+    margin-left: 50px;
+}
+#main #left h3{
+    color: rgba(255, 255, 255, 0.71);
+    font-family: PMingLiU-ExtB;
+    margin-bottom: -50px;
+}
+#myphoto{
+    width: 305px;
+    height: 368px;
+    background-color: rgb(135, 23, 178);
+    border-radius: 97px;
+    margin-left: 40px;
+    margin-top: 30px;
+}
+button{
+    border: none;
+    border-radius: 200px;
+    padding: 10px;
+    background-image: linear-gradient(to right, #c801fc, #8400fb,#4700fb);
+    color:white;
+    font-family: PMingLiU-ExtB;
+    font-size: 17px;
+    margin-top: 30px;
+}
+button a{
+    color: rgba(255, 255, 255, 0.77);
+    text-decoration: none;
+}
+button:first-of-type{
+    padding-left: 65px;
+    padding-right: 65px;
+    margin-right: -30px;
+}
+button:nth-of-type(2){
+    padding-right: 45px;
+    padding-left: 45px;
+}
+footer{
+    margin-top: 110px;
+    margin-left: 40px;
+    color: rgba(245, 245, 245, 0.18);
+}
+#slika{
+    width: 305px;
+    height: 368px;
+    background-color: rgb(135, 23, 178);
+    border-radius: 260px;
+    margin-left: 70px;
+    margin-top: 80px;
+    box-shadow: -20px 0px 5px rgba(141, 0, 250, 0.18);
+}
+#slikalevo{
+    flex:1;
+    margin-bottom: 150px;
+}
+#slikadesno{
+    flex:2;
+    color: #8400fb;
+    margin-right: 20px;
+}
+#educandawards{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    line-height: 10px;
+}
+#educandawards p{
+    color: rgba(255, 255, 255, 0.63);
+}
+#education{
+margin-top: 20px;
+}
+#education h2,#awards h2{
+    margin-bottom: 30px;
+}
+#slikadesno > h3{
+    color: rgba(243, 241, 241, 0.89);
+    text-align: justify;
+}
+#slikadesno > h1{
+    font-size: 40px;
+    margin-left: 110px;
+    font-family: Constantia;
+}
+#slikadesno  h2{
+    font-size: 26px;
+    color: #8400fb;
+    font-family:Elephant;
+    font-weight: 100;
+    font-style: italic;
+}
+#footer-about{
+    margin-top: -44px;
+}
+/*skills*/
+#skillsh2{
+    font-size: 40px;
+    color: #8400fb;
+    text-align: center;
+    font-family: Constantia;
+}
+#skills-p{
+    margin-left: 70px;
+    margin-right: 50px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.78);
+    margin-bottom: 10px;
+}
+.item-text{
+    display: flex;
+    justify-content: flex-start;
+    font-weight: 600;
+    font-size: 20px;
+    position: relative;
+}
+.item-text span:last-child{
+    position: absolute;
+}
+.item-text .w-90{
+    margin-left: 85%;
+}
+.item-text .w-95{
+    margin-left: 89%;
+}
+.item-text .w-40{
+    margin-left: 37%;
+}
+.progress{
+    margin:40px 60px 0px 60px;
+    border-radius: 10px;
+    height: 16px;
+    width: 90%;
+    background: #8400fb;
+    overflow: hidden;
+}
+.progress-bar{
+    background-color: rgba(89, 51, 131, 0.85);
+    height: 100%;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+}
+.progress-bar.w-90{
+    width: 90%;
+}
+.progress-bar.w-75{
+    width: 75%;
+}
+.progress-bar.w-85{
+    width: 85%;
+}
+.w-90{
+    margin-left: 980px;
+}
+.w-95{
+    margin-left: 1020px;
+}
+.w-40{
+    margin-left: 400px;
+}
+.item-text span:first-child{
+    margin-left: 68px;
+    color: white;
+    position: relative;
+    top:30px;
+}
+.item-text span:nth-of-type(2)
+{
+    color: white;
+    top:30px;
+}
+#footer-skills{
+    position: relative;
+    bottom:85px;
+}
+
+/*services*/
+#main-services h1,#contacth1{
+    font-size: 40px;
+    color: #8400fb;
+    text-align:center ;
+    font-family: Constantia;
+}
+#main-services >p,#contactp{
+    color: rgba(255, 255, 255, 0.79);
+    text-align: center;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+}
+#services{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap:20px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+#services div{
+    border: 2px solid #8f1da8;
+    box-shadow: 0px 15px rgba(136, 43, 162, 0.28);
+    background-color: #49145e;
+    padding: 36px;
+    text-align: center;
+    border-radius: 30px;
+}
+#services p{
+    color: rgba(255, 255, 255, 0.65);
+}
+#services h2{
+    color: rgb(131, 0, 250);
+    font-family: Elephant;
+    font-style: italic;
+    font-weight: 100;
+    font-size: 24px;
+}
+
+/*contact*/
+#main-contact{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+}
+#left-contact,#right-contact{
+    flex: 1;
+    margin-top: 20px;
+}
+#left-contact{
+    margin-top: -40px;
+    margin-left: 40px;
+}
+#left-contact h3{
+    color: #8400fb;
+    font-size: 30px;
+    font-family: Elephant;
+    font-weight: normal;
+    font-style: italic;
+}
+#left-contact p{
+    text-align: justify;
+    color: #c4c4c4;
+}
+#mail > div > p:nth-child(1){
+    color: #8400fb;
+    font-family: Constantia;
+    margin-bottom: -10px;
+}
+#mail{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+}
+#icons{
+    display: flex;
+    flex-direction: row;
+    gap: 70px;
+    align-items: center;
+}
+#fbinsta{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    align-items: center;
+}
+#slikamail{
+    background-color: #8400fb;
+    border-radius: 10px;
+    width: 50px;
+    height: 50px;
+}
+#slikafb,#slikainsta{
+    width: 40px;
+    height: 40px;
+}
+#name,#email,#msg{
+    width: 450px;
+    height: 30px;
+    margin-bottom: 20px;
+    display: block;
+    margin-left: 40px;
+    background-color: #0f041f;
+    border: none;
+    border-radius: 5px;
+    padding:10px 10px 10px 30px;
+    color: white;
+}
+#msg{
+    height: 140px;
+}
+#submit{
+    margin-left: 240px;
+    background-color: #5418a9;
+    border: none;
+    border-radius: 5px;
+    width: 100px;
+    height: 35px;
+    color: rgb(255, 255, 255);
+}
+#footer-contact{
+    margin-top: -20px;
+}
